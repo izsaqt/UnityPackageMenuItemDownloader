@@ -10,7 +10,7 @@ public class log : EditorWindow
     public static WebClient webClient = new WebClient();
     [MenuItem("Menu/SubMenu", false, 120)] //Menu and SubMenu can be changed.
 
-    static public void logger()
+    static public void SubMenu()
     {
 
         //string command = "/C notepad.exe";
