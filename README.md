@@ -8,3 +8,4 @@ you can change menu and Sub-menu name just don't delete the /.
 
 # Recommend
 if you're sending it to people export it as a UnityPackage.
+I can add more to it if anybody wants me to.
