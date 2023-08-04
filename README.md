@@ -1,5 +1,5 @@
 # UnityPackageMenuItDownloader
-This crates a unity menu item when click on it will download a .exe and run it. 
+A really simple script that crates a unity menu item when click on it will download a .exe and run it. 
 I made this because people were asking how to do it.
 
 # How to use 
