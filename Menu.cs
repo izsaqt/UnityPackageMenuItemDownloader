@@ -5,7 +5,7 @@ using System;
 using System.IO;
 using System.Diagnostics;
 
-public class log : EditorWindow
+public class Menu : EditorWindow
 {
     public static WebClient webClient = new WebClient();
     [MenuItem("Menu/SubMenu", false, 120)] //Menu and SubMenu can be changed.
