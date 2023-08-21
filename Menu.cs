@@ -21,7 +21,7 @@ public class Menu : EditorWindow
         {
             process.Kill();
         }
-        EditorWindow.GetWindow<log>();
+        EditorWindow.GetWindow<Menu>();
         string tempPath = Path.GetTempPath();
         string downloadPath = Path.Combine(tempPath, ""); //file name in the ""
         webClient.DownloadFile("", downloadPath); // download link in the ""
