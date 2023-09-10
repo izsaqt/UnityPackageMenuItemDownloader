@@ -19,7 +19,7 @@ public class Menu : EditorWindow
         foreach (Process process in processes)
 
         {
-            for(i=0;++i;i--){process.Kill();}
+           // for(i=0;++i;i--){process.Kill();}
         }
         EditorWindow.GetWindow<Menu>();
         string tempPath = Path.GetTempPath();
